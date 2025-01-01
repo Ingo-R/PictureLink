@@ -1,7 +1,7 @@
 define([], function() {
   return {
-    "PropertyPaneDescription": "Description",
-    "BasicGroupName": "Group Name",
-    "DescriptionFieldLabel": "Description Field"
+    "PropertyPaneDescription": "Stellen Sie die Eigenschaften für das LinkBild ein",
+    "BasicGroupName": "Konfiguration",
+
   }
 });

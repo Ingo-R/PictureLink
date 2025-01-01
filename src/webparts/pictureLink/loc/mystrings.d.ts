@@ -1,7 +1,6 @@
 declare interface IPictureLinkWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
-  DescriptionFieldLabel: string;
 }
 
 declare module 'PictureLinkWebPartStrings' {
