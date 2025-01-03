@@ -34,6 +34,7 @@ export default class PictureLinkWebPart extends BaseClientSideWebPart<IPictureLi
   protected onDispose(): void {
     ReactDom.unmountComponentAtNode(this.domElement);
   }
+  // @ts-ignore
   protected get dataVersion(): Version {
     return Version.parse('1.0');
   }
