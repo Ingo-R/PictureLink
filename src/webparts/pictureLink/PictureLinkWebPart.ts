@@ -8,8 +8,8 @@ import {
 import * as strings from 'PictureLinkWebPartStrings';
 import PictureLink from './components/PictureLink';
 import { IPictureLinkProps } from './components/IPictureLinkProps';
-import {PropertyFieldTextWithCallout} from "@pnp/spfx-property-controls";
-import {CalloutTriggers} from "@pnp/spfx-property-controls/lib/common/callout";
+import {PropertyFieldTextWithCallout} from '@pnp/spfx-property-controls';
+import {CalloutTriggers} from '@pnp/spfx-property-controls/lib/common/callout';
 export interface IPictureLinkWebPartProps {
   beschreibung: string;
   name: string;
@@ -25,7 +25,7 @@ export default class PictureLinkWebPart extends BaseClientSideWebPart<IPictureLi
         name: this.properties.name,
         linkBild: this.properties.linkBild,
         linkZiel: this.properties.linkZiel,
-        configured: this.properties.linkBild ? this.properties.linkBild != '' : false,
+        configured: this.properties.linkBild ? this.properties.linkBild !== '' : false,
         context: this.context
       }
     );

@@ -3,11 +3,12 @@
   "solution": {
     "name": "picture-link-client-side-solution",
     "id": "9dccec78-0188-4c22-93b9-b678f1b14e47",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "skipFeatureDeployment": true
+    "version": "1.0.0.2",
+    "includeClientSideAssets": false,
+    "skipFeatureDeployment": true,
+    "supportedLocales": ["en-US", "de-de"]
   },
   "paths": {
-    "zippedPackage": "solution/picture-link.sppkg"
+    "zippedPackage": "solution/Picturelink.sppkg"
   }
 }
